@@ -12,7 +12,6 @@
 2. Understanding `reified` Keyword in Kotlin
 3. Understanding `mutableListOf` in Kotlin 
 
-
 # Kotlin Coroutines Tutorial
 ## 3 Drops of Kotlin Coroutines Concepts #1
 1. Understanding `suspend function` in Kotlin Coroutines 
