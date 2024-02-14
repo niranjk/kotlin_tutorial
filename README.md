@@ -18,4 +18,11 @@
 2. Difference between `launch/join` and `async/await`
 3. GlobalScope vs CoroutineScope vs LifecycleScope vs ViewModelScope 
 
+# Kotlin Basics 
+1. Development Environment - IDE 
+2. Expressions, Variables & Constants 
+3. Types & Operations 
+
+
+
 
