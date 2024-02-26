@@ -25,5 +25,6 @@
 4. Basic Control Flow 
 5. Advanced Control Flow
 6. Functions
+7. Nullability
 
 
