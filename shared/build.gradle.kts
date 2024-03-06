@@ -1,6 +1,9 @@
+import org.jetbrains.dokka.gradle.DokkaTask
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.dokka)
 }
 
 kotlin {
@@ -11,7 +14,7 @@ kotlin {
             }
         }
     }
-    
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -40,4 +43,8 @@ android {
     defaultConfig {
         minSdk = 24
     }
+}
+
+tasks.withType<DokkaTask>().configureEach {
+    outputDirectory = buildDir.resolve("dokka") // Customize output directory
 }
