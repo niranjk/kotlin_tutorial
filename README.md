@@ -32,4 +32,10 @@
 1. What is Asynchronous Programming?
 2. What is Multithreading? 
 3. Thread-Safe Data structure : Queues and Pipelines 
-4. Callback approach Vs Coroutine appraoch while handling the work completion in asynchronous programming
+4. Callback approach Vs Coroutine approach while handling the work completion in asynchronous programming
+5. Suspending Functions
+6. Async/Await Pattern in Coroutines 
+7. Coroutine Context Basics
+8. Building Context Providers 
+9. Context Switching & Dispatching 
+10. Exception Handling

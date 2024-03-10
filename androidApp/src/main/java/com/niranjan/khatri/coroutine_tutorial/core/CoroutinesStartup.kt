@@ -86,7 +86,7 @@ fun jobHierarchyUsingParentChildRelationship() = runBlocking {
 fun updateUI(data: String) {
     runBlocking {
         launch {
-            val processedData = processData(data) // Background operation
+            val processedData = processDataNew(data) // Background operation
             withContext(Dispatchers.Main) {
                 // Update UI elements on the main thread
                 // textView.text = processedData
@@ -94,7 +94,7 @@ fun updateUI(data: String) {
         }
     }
 }
-fun processData(data: String) = "Data From Background"
+fun processDataNew(data: String) = "Data From Background"
 
 
 

@@ -5,7 +5,7 @@ compose = "1.5.4"
 compose-compiler = "1.5.4"
 compose-material3 = "1.1.2"
 androidx-activityCompose = "1.8.0"
-kotlin-coroutines-v = "1.8.0-RC2"
+kotlin-coroutines-v = "1.8.0"
 dokka-v = "1.9.10"
 
 [libraries]

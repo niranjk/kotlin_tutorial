@@ -1,4 +1,4 @@
-package com.niranjan.khatri.kotlintutorial.coroutines
+package com.niranjan.khatri.coroutine_tutorial.core
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
