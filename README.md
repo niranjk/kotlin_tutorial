@@ -39,3 +39,5 @@
 8. Building Context Providers 
 9. Context Switching & Dispatching 
 10. Exception Handling
+11. SequenceScope 
+12. Flow Basics 
